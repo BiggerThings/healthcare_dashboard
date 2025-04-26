@@ -1,0 +1,15 @@
+.navlink {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.body-emphasized-14pt {
+    font-family: var(--unnamed-font-family-manrope);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-bold);
+    font-size: var(--unnamed-font-size-14);
+    line-height: var(--unnamed-line-spacing-19);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+}
