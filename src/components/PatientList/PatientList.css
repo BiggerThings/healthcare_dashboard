@@ -40,6 +40,6 @@
 .patient-list__body {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 19px;
     padding: 0 20px;
 }

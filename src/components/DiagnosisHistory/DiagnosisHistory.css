@@ -1,0 +1,12 @@
+.diagnosis-history {
+    position: absolute;
+    top: 122px;
+    left: 417px;
+    width: 766px;
+    height: 673px;
+
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+}
