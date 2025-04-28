@@ -6,7 +6,8 @@
 
 .navbar-container{
   font-family: var(--unnamed-font-family-manrope);
-  background-color: #fff;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
   padding: 0 3%;
   border-radius: 70px;
   position: absolute;
