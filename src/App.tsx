@@ -1,4 +1,5 @@
 import { Navbar } from "./components/Navbar/Navbar";
+import { PatientList } from "./components/PatientList/PatientList";
 import "./App.css";
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Hello World</h1>
+      <PatientList />
+      
     </div>
   )
 }

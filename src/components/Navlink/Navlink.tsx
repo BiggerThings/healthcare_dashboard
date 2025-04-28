@@ -1,6 +1,5 @@
 import "./Navlink.css";
 
-
 type NavlinkProps = {
     imageUrl: string;
     text: string;

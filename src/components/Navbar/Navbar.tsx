@@ -20,7 +20,7 @@ export function Navbar() {
                 </div>
                 <div className="practitioner-info">
                     <p className="body-emphasized-14pt">Dr Jose Simmons</p>
-                    <p className="body-secondary-info-14pt">General Practioner</p>
+                    <p className="body-secondary-info-14pt">General Practitioner</p>
                 </div>
                 <div className="settings-container">
                     <div>

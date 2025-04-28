@@ -1,0 +1,16 @@
+.patient-preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* position: absolute;
+    left: 18px; */
+    width: 317px;
+    height: 48px;
+}
+
+.patient-preview__header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
