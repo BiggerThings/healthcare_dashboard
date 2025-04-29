@@ -1,7 +1,7 @@
 .patient-full-info {
     position: absolute;
     top: 108px;
-    left: 1216px;
+    left: 1256px;
     width: 367px;
     height: 740px;
     /* UI Properties */
@@ -9,4 +9,5 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 16px;
     opacity: 1;
+    padding: 20px;
 }

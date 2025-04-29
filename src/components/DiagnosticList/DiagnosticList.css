@@ -1,9 +1,10 @@
 .diagnostic-list {
     position: absolute;
-    top: 827px;
+    top: 873px;
     left: 417px;
     width: 766px;
     height: 349px;
+    padding: 20px;
     /* UI Properties */
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;

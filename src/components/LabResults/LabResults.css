@@ -1,7 +1,7 @@
 .lab-results {
     position: absolute;
-    top: 880px;
-    left: 1215px;
+    top: 930px;
+    left: 1255px;
     width: 367px;
     height: 296px;
     /* UI Properties */
@@ -9,5 +9,5 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     border-radius: 15px;
-
+    padding: 20px;
 }
