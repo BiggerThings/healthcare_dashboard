@@ -48,9 +48,10 @@ export function DiagnosisHistory() {
         plugins: {
           legend: {
             position: 'top' as const,
+            display: false,
           },
           title: {
-            display: true,
+            display: false,
             text: 'Line Chart with Two Datasets',
           },
         },
@@ -72,7 +73,7 @@ export function DiagnosisHistory() {
                 </div>
             
                 <div className="chart-container">
-                    <Line data={data} /*options={options}*/ />
+                    <Line data={data} options={options} />
                 </div>
             </div>
         </div>

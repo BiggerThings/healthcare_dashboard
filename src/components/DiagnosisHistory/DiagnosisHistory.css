@@ -65,7 +65,8 @@
 
 .chart-container {
     /* Layout Properties */
-    top: 283px;
+    margin-top: 40px;
+    top: 333px;
     left: 483px;
     width: 450px;
     height: 300px;
