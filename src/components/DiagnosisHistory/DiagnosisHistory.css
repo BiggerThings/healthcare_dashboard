@@ -67,11 +67,10 @@
     /* Layout Properties */
     top: 283px;
     left: 483px;
-    width: 417px;
-    height: 187px;
+    width: 450px;
+    height: 300px;
     /* UI Properties */
     opacity: 1;
-    background-color: aqua;
 }
 
 .time-period {
