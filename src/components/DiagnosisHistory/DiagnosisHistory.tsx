@@ -55,6 +55,25 @@ export function DiagnosisHistory() {
             text: 'Line Chart with Two Datasets',
           },
         },
+        scales: {
+            x: {
+              ticks: {
+                display: true,
+              },
+              grid: {
+                drawTicks: true,
+                display: false,
+              },
+            },
+            y: {
+              ticks: {
+                display: true,
+              },
+              grid: {
+                drawTicks: true,
+              },
+            },
+          }
       };
     
     return (
