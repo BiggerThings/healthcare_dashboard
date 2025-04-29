@@ -4,9 +4,99 @@
     left: 417px;
     width: 766px;
     height: 673px;
-
+    padding: 20px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 16px;
+    opacity: 1;
+}
+
+.diagnosis-history-header {
+    top: 142px;
+    left: 437px;
+    width: 207px;
+    height: 33px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.blood-pressure-container {
+    margin-top: 40px;
+    padding: 16px;
+    top: 215px;
+    left: 437px;
+    width: 726px;
+    height: 298px;
+    /* UI Properties */
+    background: #F4F0FE 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.blood-pressure-header {
+    top: 231px;
+    left: 453px;
+    width: 131px;
+    height: 24px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 18px/24px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.blood-pressure-title-container {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+
+.chart-container {
+    /* Layout Properties */
+    top: 283px;
+    left: 483px;
+    width: 417px;
+    height: 187px;
+    /* UI Properties */
+    opacity: 1;
+    background-color: aqua;
+}
+
+.time-period {
+    display: flex;
+    gap: 16px;
+
+    /* Layout Properties */
+    top: 236px;
+    left: 772px;
+    width: 119px;
+    height: 19px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.time-period-text {
+    width: 92px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: right;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
     opacity: 1;
 }
