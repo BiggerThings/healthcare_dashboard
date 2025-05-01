@@ -28,7 +28,7 @@
 }
 
 .blood-pressure-container {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 16px;
     top: 215px;
     left: 437px;
@@ -99,4 +99,191 @@
     letter-spacing: 0px;
     color: #072635;
     opacity: 1;
+}
+
+.readings-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    position: absolute;
+    top: 435px;
+    left: 18px;
+}
+
+.readings-all {
+    width: 228px;
+    height: 242px;
+    border-radius: 12px;
+    opacity: 1;
+    padding-left: 18px;
+    padding-top: 18px;
+}
+
+.respiratory-bg {
+    background: #E0F3FA 0% 0% no-repeat padding-box;
+}
+
+.temperature-bg {
+    background: #FFE6E9 0% 0% no-repeat padding-box;
+}
+
+.heart-rate-bg {
+    background: #FFE6F1 0% 0% no-repeat padding-box;
+}
+
+.readings-title {
+    top: 661px;
+    left: 453px;
+    width: 125px;
+    height: 22px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium 16px/22px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 16px/22px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.readings-value {
+    top: 682px;
+    left: 453px;
+    width: 109px;
+    height: 41px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 30px/41px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 30px/41px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.readings-gauge {
+    top: 700px;
+    left: 463px;
+    width: 134px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.readings-image {
+    width: 96px;
+    height: 96px;
+    top: 549px;
+    left: 453px;
+}
+
+.symbol-container {
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.blood-pressure-readings {
+    top: 231px;
+    left: 939px;
+    width: 149px;
+    height: 84px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.blood-pressure-readings-gauge {
+    display: flex;
+    gap: 10px;
+    width: 207px;
+}
+
+.blood-pressure-readings-value {
+    top: 258px;
+    left: 939px;
+    width: 38px;
+    height: 30px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/30px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 22px/30px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.average {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.stolic {
+    top: 231px;
+    left: 957px;
+    width: 55px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.round-stolic {
+    top: 234px;
+    left: 939px;
+    width: 14px;
+    height: 14px;
+    /* UI Properties */
+    border: 1px solid var(--unnamed-color-ffffff);
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    opacity: 1;
+    color: transparent; 
+}
+
+.bg-systolic {
+    background: #E66FD2 0% 0% no-repeat padding-box;
+}
+
+.bg-diatolic {
+    background: #8C6FE6 0% 0% no-repeat padding-box;
+}
+
+.bp-readings-container {
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mg-bt {
+    border-bottom: rgb(200, 196, 196) 0.5px solid;
 }

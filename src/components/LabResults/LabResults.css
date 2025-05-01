@@ -12,3 +12,46 @@
     border-radius: 15px;
     padding: 20px;
 }
+.lab-results-title {
+    width: 137px;
+    height: 33px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.lab-results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: left;
+}
+
+.lab-results-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.lab-results-header-title {
+    /* width: 70px; */
+height: 18px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/18px var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-072635);
+text-align: left;
+font: normal normal normal 13px/18px Manrope;
+letter-spacing: 0px;
+color: #072635;
+text-transform: capitalize;
+opacity: 1;
+}

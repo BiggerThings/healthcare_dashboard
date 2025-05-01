@@ -1,7 +1,19 @@
 import "./PatientList.css";
 import { PatientPreview } from "../PatientPreview/PatientPreview";
 
-export function PatientList() {
+class Patient {
+    imageUrl: string;
+    name: string;
+    extraInfo: string;
+
+    constructor(imageUrl: string, name: string, extraInfo: string) {
+        this.imageUrl = imageUrl;
+        this.name = name;
+        this.extraInfo = extraInfo;
+    }
+}
+
+export function PatientList( { patients } : { patients: any[] }) {
     const hardCodedPatients = [
         {
             imageUrl: "/Layer 1.png",
@@ -17,6 +29,11 @@ export function PatientList() {
             imageUrl: "/Layer 4.png",
             name: "Brandon Mitchell",
             extraInfo: "Male, 36"
+        },
+        {
+            imageUrl: "/Layer 2.png",
+            name: "Jessica Taylor",
+            extraInfo: "Female, 28"
         },
         {
             imageUrl: "/Layer 5.png",
@@ -47,7 +64,27 @@ export function PatientList() {
             imageUrl: "/Layer 9.png",
             name: "Mike Nolan",
             extraInfo: "Male, 31"
-        }
+        },
+        {
+            imageUrl: "/Layer 12.png",
+            name: "Samantha Johnson",
+            extraInfo: "Female, 56"
+        },
+        {
+            imageUrl: "/Layer 6.png",
+            name: "Angela Martinez",
+            extraInfo: "Female, 54"
+        },
+        {
+            imageUrl: "/Layer 7.png",
+            name: "Kevin Anderson",
+            extraInfo: "Male, 30"
+        },
+        {
+            imageUrl: "/Layer 8.png",
+            name: "Nathan Evans",
+            extraInfo: "Male, 58"
+        },
     ]
     
     return (
